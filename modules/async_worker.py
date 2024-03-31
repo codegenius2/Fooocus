@@ -83,7 +83,7 @@ def worker():
     def build_image_wall(async_task):
         results = []
 
-        if len(async_task.results) < 2:
+        if len(async_task.results) < 6:
             return
 
         for img in async_task.results:
